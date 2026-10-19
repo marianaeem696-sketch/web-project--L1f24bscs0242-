@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | CrochetClosetByHer</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+    <header>
+        <h1>CrochetClosetByHer</h1>
+        <p>Join our handmade crochet family!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="media.html">Media & Information</a>
+        <a href="register.html">Register</a>
+    </nav>
+
+    <main>
+        <h2>Create Your Account</h2>
+        <p>Fill in the form to become part of our crochet community.</p>
+
+        <form action="#" method="post">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name"
+                   minlength="3" maxlength="40" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="example@email.com" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"
+                   minlength="6" required>
+
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="website">Your Website (optional):</label>
+            <input type="url" id="website" name="website"
+                   placeholder="https://example.com">
+
+            <label for="color">Choose Your Favourite Color:</label>
+            <input type="color" id="color" name="color" value="#b77b8e">
+
+            <label for="quantity">How Many Items Interest You?</label>
+            <input type="number" id="quantity" name="quantity"
+                   min="1" max="20" value="1">
+
+            <label for="time">Preferred Contact Time:</label>
+            <input type="time" id="time" name="time">
+
+            <label for="interest">Interest in Crochet (1-10):</label>
+            <input type="range" id="interest" name="interest"
+                   min="1" max="10" value="5">
+
+            <label for="message">Tell Us About Your Interests:</label>
+            <textarea id="message" name="message"
+                      rows="4" maxlength="300"
+                      placeholder="I love handmade crochet..."></textarea>
+
+            <label for="product">Favourite Product:</label>
+            <select id="product" name="product" required>
+                <option value="" selected disabled>Choose a product</option>
+                <option value="flowers">Crochet Flowers</option>
+                <option value="bags">Handmade Bags</option>
+                <option value="accessories">Crochet Accessories</option>
+            </select>
+
+            <label for="photo">Upload a Crochet Picture:</label>
+            <input type="file" id="photo" name="photo"
+                   accept="image/*">
+
+            <p>Preferred Contact Method:</p>
+            <label class="choice">
+                <input type="radio" name="contact" value="email" checked>
+                Email
+            </label>
+            <label class="choice">
+                <input type="radio" name="contact" value="phone">
+                Phone
+            </label>
+
+            <label class="choice">
+                <input type="checkbox" name="updates" checked>
+                Send me crochet updates
+            </label>
+
+            <label for="member">Membership Type:</label>
+            <input type="text" id="member" value="Crochet Lover"
+                   readonly>
+
+            <label for="status">Account Status:</label>
+            <input type="text" id="status" value="Available soon"
+                   disabled>
+
+            <button type="submit">Register Now</button>
+            <button type="reset">Clear Form</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CrochetClosetByHer. Made with love.</p>
+        <a href="index.html">Back to Home</a>
+    </footer>
+
+</body>
+</html>

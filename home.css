@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8f5;
+    color: #493a36;
+}
+
+/* Hero background */
+.hero {
+ background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+), url("./images/crochet-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.flower-decoration {
+    font-size: 28px;
+}
+
+nav {
+    background-color: #e1eadb;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #493a36;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b77b8e;
+}
+
+#welcome,
+.about-section {
+    text-align: center;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 850px;
+    background-color: #fff0f5;
+    border: 2px solid #edc6d0;
+    border-radius: 25px;
+}
+
+h2, h3 {
+    color: #8d5265;
+}
+
+.hero-button,
+.collection-button {
+    display: inline-block;
+    background-color: #b77b8e;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.hero-button:hover,
+.collection-button:hover {
+    background-color: #8d5265;
+}
+
+.highlights {
+    text-align: center;
+    padding: 20px;
+}
+
+.highlight-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.highlight-card {
+    background-color: white;
+    padding: 20px;
+    max-width: 250px;
+    border: 1px solid #edc6d0;
+    border-radius: 15px;
+}
+
+.highlight-card:hover {
+    box-shadow: 0 5px 15px #e8cbd4;
+}
+
+.card-flower {
+    font-size: 35px;
+}
+
+footer {
+    background-color: #edc6d0;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #693e4c;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .highlight-card {
+        max-width: 100%;
+    }
+}

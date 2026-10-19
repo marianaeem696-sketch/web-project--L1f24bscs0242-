@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8f5;
+    color: #493a36;
+}
+
+header, footer {
+    background-color: #edc6d0;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #e1eadb;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #493a36;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b77b8e;
+}
+
+main {
+    padding: 25px;
+}
+
+h2, h3 {
+    color: #8d5265;
+}
+
+.intro, .gallery, .information, .care {
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #edc6d0;
+    border-radius: 15px;
+    background-color: #fff0f5;
+}
+
+.intro, .gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 80%;
+    max-width: 750px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.products {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    width: 260px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #edc6d0;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    color: #58745a;
+}
+
+.price {
+    color: #a34f70;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.information {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #d9b6c3;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e1eadb;
+    color: #493a36;
+}
+
+tr:nth-child(even) {
+    background-color: #fff8f5;
+}
+
+.care li {
+    margin: 10px 0;
+}
+
+.register-link {
+    text-align: center;
+    padding: 20px;
+}
+
+.register-link a {
+    color: #a34f70;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 12px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: 240px;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+
+    table {
+        min-width: 600px;
+    }
+}

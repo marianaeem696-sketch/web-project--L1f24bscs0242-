@@ -1,4 +1,4 @@
-# CrochetClosetByHer 🌸
+# CrochetClosetByHer 
 
 ## About the Project
 CrochetClosetByHer is a handmade crochet website created for Web Technologies Assignment 1. It presents crochet products, handmade designs, product information and a registration form.
@@ -11,13 +11,15 @@ CrochetClosetByHer is a handmade crochet website created for Web Technologies As
 ## Technologies Used
 - HTML5
 - CSS3
-- Basic JavaScript, if used
 
 ## Design Theme
 The website uses pastel pink, sage green and cream colors to create a soft, handmade look inspired by crochet flowers and accessories.
 
 ## AI Usage Log
-AI tools were used to help understand HTML and CSS, troubleshoot image paths, improve page styling and assist with GitHub setup. I reviewed and tested the project and am responsible for understanding the submitted code.
+I asked to explain the project brief, plan pages ,fix background image path and show the github steps.
+
+## my contribution
+I selected the website name ,choose theme , arrange images and wrote my own text and code.
 
 ## Author
 Student Web Technologies Project — Assignment 1
